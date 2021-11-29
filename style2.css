@@ -1,0 +1,236 @@
+body{
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: .5rem;
+}
+[class^="col"]{
+  padding: 0 .5rem;
+}
+.row {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1 1 0;
+}
+.col-1 {
+  flex: 0 0 8.333333%;
+}
+.col-2 {
+  flex: 0 0 16.666666%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-4 {
+  flex: 0 0 33.333333%;
+}
+.col-5 {
+  flex: 0 0 41.666666%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+.col-7 {
+  flex: 0 0 58.333333%;
+}
+.col-8 {
+  flex: 0 0 66.666667%;
+}
+.col-9 {
+  flex: 0 0 75%;
+}
+.col-10 {
+  flex: 0 0 83.333333%;
+}
+.col-11 {
+  flex: 0 0 91.666667%;
+}
+.col-12 {
+  flex: 0 0 100%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.navbar ul li  {
+  display: inline-flex;
+}
+.navbar ul li {
+ color: #004f80;;
+ padding: 10px 15px;
+ text-decoration: none;
+ display: inline-flex;
+ font-weight: 700;
+ font-family: Arial,Helvetica,sans-serif;
+ font-style: normal;
+}
+.align{
+  display: inline-flex;
+  justify-content: space-between;
+}
+main{
+  color: white;
+  height: 100vh;
+  background-image: url("./karakol.jpg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.center{
+  text-align: center;
+}
+.btn {
+  max-width: 8rem;
+  margin: 0 auto;
+  background-color: #cd8b2a;
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border-color: transparent;
+  
+}
+.btn:hover{
+  color: white;
+  background-color:#cd8b2a  transparent ;
+}
+.main-text{
+  font-family:'Times New Roman', Times, serif ;
+  font-weight: 400;
+  font-size: xx-large;
+  display: block;
+}
+.position {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image{
+  width: 350px;
+  padding: 15px;
+}
+.colors{
+  color: #004f80;
+  font-weight: bold;
+  
+}
+.fontf{
+  font-family: Georgia,serif;
+  font-weight: 400;
+  text-transform:none ;
+  margin-top: 20px;
+  font-size: 350%;
+  padding-top: 50px;
+}
+article{
+  background-image: url(./pinkbackground.jpg), url(./kr.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover cover;
+  background-position: center center;
+  color: rgb(255, 255, 255);
+  padding-right: 12vw;
+  padding-left: 12vw;
+  display: block;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.p-text{
+  font-size: 150%;
+  display: block;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  padding-bottom: 50px;
+}
+.buton {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.dropdown button {
+  background-color: rgb(255, 255, 255);
+  color: #004f80; 
+  border: none;
+  font-weight: 900;
+  padding: 15px 25px;
+  margin: 0;
+}
+.dropdown button:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.dropdown button:active{
+  border-bottom: 2px solid #004f80;
+}
+.dropdown ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+
+}
+.dropdown ul li {
+  padding: 0;
+  margin: 0;  
+  
+}
+.dropdown:hover ul {
+  display: block;
+}
+.dropdown:hover ul {
+  display: block;
+}
+.dropdown ul a {
+  background-color: rgb(255, 255, 255);
+  color: #004f80;
+   display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.dropdown ul a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.pad{
+  padding-left: 20px;
+}
+
+footer{
+  background-image: url(./004f80fon.png);
+  background-repeat: no-repeat;
+  background-size:4000px;
+
+  background-position: center;
+  color: rgb(243, 243, 243);
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+footer a{
+  color: white;
+}
+
+
